@@ -1,0 +1,10 @@
+root{
+
+  --rosa-fraco: #caa8f5ff;
+  --roco-fraco: #9984d4ff;
+  --mendigo-violeta: #592e83ff;
+  --violeta-meianoite: #230c33ff;
+}
+body{
+    background:var(--mendigo-violeta);
+}
