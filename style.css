@@ -1,10 +1,18 @@
-root{
+@import url('@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playwrite+ID:wght@100..400&display=swap');');
+:root{
 
   --rosa-fraco: #caa8f5ff;
   --roco-fraco: #9984d4ff;
   --mendigo-violeta: #592e83ff;
   --violeta-meianoite: #230c33ff;
+  --título:"Merriweather", serif;
+  --texto:"Playwrite ID", cursive;
+
 }
 body{
     background:var(--mendigo-violeta);
-}
+    front-family:var(--texto);
+  }
+h1{
+    font-family: var(--titulo)
+ }
