@@ -1,40 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap&#39;);
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
 
 *{
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
+:root{
+    --laranja-forte: rgb(255, 48, 11);
+    --Verde-prime: rgb(7, 251, 7);
+    --rosa-neon: #ff006eff;
+    --azul-violeta: #8338ecff;
+    --titulo: "Oswald", sans-serif;
+    --texto: "Open Sans", sans-serif;
+}
 
-  :root {
-
-    --rosa-fraco: #caa8f5ff;
-    --roxo-fraco: #9984d4ff;
-    --mendigo-violeta: #592e83ff;
-    --violeta-meianoite: #230c33ff;
-    --título:"Merriweather", serif;
-    --texto:"Playwrite ID", cursive;
-
-  }
-
-  body {
-    background:var(--mendigo-violeta);
-    font-family:var(--texto);
-  }
-
-  header {
-    background-color: var (--violeta-meianoite);
+body{
+    background: var(--laranja-forte);
+    font-family: var(--texto);
+}
+header{
+    background-color: var(--azul-violeta);
     display: flex;
-    justify-content: space-between;
-    color: var(--rosa-fraco)
+    justify-content: space-around;
+    color: var(--Verde-prime);
+    padding: 30px;
+
   }
 .menu{
-  display: flex;
-  list-style: none;
-  gap: 20px;
-  margin: 10px;
-  color: var(--rosa-fraco) 
-  text-transform: uppercase;
-  font-size: 14px;
- }
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 10px;
+    color: var(--rosa-neon);
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+.img-capa{
+    width: 100%;
+    height: 10%;
+}
