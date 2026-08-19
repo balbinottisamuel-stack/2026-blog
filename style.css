@@ -36,6 +36,17 @@ header{
     font-size: 14px;
 
 }
+
+.menu a{
+    text-decoration: none;
+    color: var(--Verde-prime);
+    font-weight: bold;
+}
+.menu a:hover{
+    color: var(--rosa-neon);
+    transition: 1s;
+}
+
 .img-capa{
     width: 100%;
     height: 10%;
