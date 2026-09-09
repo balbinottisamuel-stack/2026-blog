@@ -26,6 +26,11 @@ header{
     padding: 30px;
 
   }
+.logo{
+    width: 10%;
+    border-radius: 100%;
+}
+
 .menu{
     display: flex;
     list-style: none;
@@ -69,4 +74,13 @@ header{
 .conteudo-texto{
     font-family: var(--texto);
     font-size: 14px;
+}
+
+footer{
+  background-color: var(--Verde-prime);
+  color: var(--azul-violeta);
+  font-family: var(--titulo);
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
 }
